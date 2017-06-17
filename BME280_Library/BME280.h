@@ -1,23 +1,15 @@
-/* BME280 Basic Example Code using Dragonfly
+/* 06/16/2017 Copyright Tlera Corporation
  *  
- by: Kris Winer
- date: April 29, 2016
- license: Beerware - Use this code however you'd like. If you 
- find it useful you can buy me a beer some time.
- 
+ *  Created by Kris Winer
+ *  
  This sketch uses SDA/SCL on pins 42/43 (back pads), respectively, and it uses the Dragonfly STM32L476RE Breakout Board.
  The BME280 is a simple but high resolution pressure/humidity/temperature sensor, which can be used in its high resolution
  mode but with power consumption of 20 microAmp, or in a lower resolution mode with power consumption of
  only 1 microAmp. The choice will depend on the application.
  
- SDA and SCL have 4K7 pull-up resistors (to 3.3V).
+ Library may be used freely and without limit with attribution.
  
- Hardware setup:
- SDA ----------------------- 42 or 20
- SCL ----------------------- 43 or 21
- 
-  */
-  
+*/
 #ifndef BME280_h
 #define BME280_h
 
