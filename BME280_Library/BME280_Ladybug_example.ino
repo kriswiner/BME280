@@ -26,9 +26,9 @@
 uint8_t Posr = P_OSR_16, Hosr = H_OSR_16, Tosr = T_OSR_02, Mode = normal, IIRFilter = BW0_042ODR, SBy = t_62_5ms;     // set pressure amd temperature output data rate
 // t_fine carries fine temperature as global value for BME280
 
-float Temperature, Pressure, Humidity; // stores BME280 pressures sensor pressure and temperature
-int32_t rawPress, rawTemp;            // pressure and temperature raw count output for BME280
-int16_t rawHumidity;                  // variables to hold raw BME280 humidity value
+float Temperature, Pressure, Humidity;   // stores BME280 pressures sensor pressure and temperature
+int32_t rawPress, rawTemp, rawHumidity;  // pressure, humidity, and temperature raw count output for BME280
+
 
 float   temperature_C, temperature_F, pressure, humidity, altitude; // Scaled output of the BME280
 
